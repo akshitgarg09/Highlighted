@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'dart:math';
 
 import './tabs_screen.dart';
 
@@ -18,6 +19,16 @@ class _HighlightAddedState extends State<HighlightAdded> {
   String bookTitle;
   String bookID;
   final user = FirebaseAuth.instance.currentUser;
+
+  List colors = [
+    Colors.blueAccent,
+    Colors.teal[600],
+    Colors.red[700],
+    Colors.grey[800],
+    Colors.deepPurple[700]
+  ];
+
+  Random rnd = new Random();
 
   void _submit() async {
     DocumentReference docref;
@@ -162,7 +173,8 @@ class _HighlightAddedState extends State<HighlightAdded> {
                             children: highlights
                                 .map((highlight) => Container(
                                       width: 300,
-                                      padding: const EdgeInsets.all(20.0),
+                                      padding: const EdgeInsets.fromLTRB(
+                                          20, 0, 20, 20),
                                       child: Card(
                                         elevation: 2.5,
                                         child: Padding(

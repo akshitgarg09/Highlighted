@@ -1,9 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'dart:math';
 
 class HighlightsScreen extends StatelessWidget {
   static const routeName = 'highlightsScreen';
+  List colors = [
+    Colors.blueAccent,
+    Colors.teal[600],
+    Colors.red[700],
+    Colors.grey[800],
+    Colors.deepPurple[700]
+  ];
+
+  Random rnd = new Random();
+
   @override
   Widget build(BuildContext context) {
     double c_width = MediaQuery.of(context).size.width * 0.8;
@@ -13,7 +24,13 @@ class HighlightsScreen extends StatelessWidget {
     final bookID = routeArgs['bookID'];
     return Scaffold(
         appBar: AppBar(
-          title: Text('Highlights'),
+          iconTheme: IconThemeData(color: Colors.black),
+          centerTitle: true,
+          backgroundColor: Colors.white,
+          title: Text(
+            'Highlights',
+            style: TextStyle(color: Colors.black),
+          ),
         ),
         body: SingleChildScrollView(
           physics: ScrollPhysics(),
@@ -74,6 +91,7 @@ class HighlightsScreen extends StatelessWidget {
                 if (highlightSnapshot.hasData) {
                   final List<DocumentSnapshot> highlights =
                       highlightSnapshot.data.docs;
+                  final hLen = highlights.length;
                   return ListView(
                     physics: NeverScrollableScrollPhysics(),
                     shrinkWrap: true,
@@ -81,18 +99,42 @@ class HighlightsScreen extends StatelessWidget {
                         .map((highlight) => Padding(
                               padding: const EdgeInsets.all(12.0),
                               child: Card(
+                                shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(8)),
                                 elevation: 2.5,
                                 child: Padding(
-                                  padding: const EdgeInsets.all(20.0),
-                                  child: Column(
+                                  padding: const EdgeInsets.all(0),
+                                  child: IntrinsicHeight(
+                                    child: Row(
                                       crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                          CrossAxisAlignment.stretch,
                                       children: <Widget>[
-                                        Text(
-                                          highlight['highlight'],
-                                          style: TextStyle(fontSize: 18),
+                                        Container(
+                                          color: colors[rnd.nextInt(5)],
+                                          width: 7,
+                                          height: 50,
+                                        ),
+                                        Expanded(
+                                          child: Padding(
+                                            padding: const EdgeInsets.all(20.0),
+                                            child: Column(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
+                                              children: <Widget>[
+                                                Text(
+                                                  highlight['highlight'],
+                                                  style:
+                                                      TextStyle(fontSize: 18),
+                                                )
+                                              ],
+                                            ),
+                                          ),
                                         )
-                                      ]),
+                                      ],
+                                    ),
+                                  ),
                                 ),
                               ),
                             ))
@@ -104,6 +146,9 @@ class HighlightsScreen extends StatelessWidget {
                 );
               },
             ),
+            SizedBox(
+              height: 40,
+            )
           ]),
         ));
   }
