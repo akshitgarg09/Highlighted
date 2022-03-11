@@ -7,7 +7,7 @@ Highlighted - App that helps you remember what you read.
 <br>
 
 <p align='center'>
-    <img src="https://drive.google.com/file/d/1QpvFKfrMJyX4qcLnATQ5pP0Yk7ftzz5X/view?usp=sharing"/>
+    ![image](https://drive.google.com/uc?export=view&id=1QpvFKfrMJyX4qcLnATQ5pP0Yk7ftzz5X)
     <img src="https://drive.google.com/file/d/1QqOZGxHxLlgIc8oddSziFwHuUCsrSpjl/view?usp=sharing"/>
     <img src="https://drive.google.com/file/d/1Qrnx19g6pI8-woAow2eSErtzNCBEYFLT/view?usp=sharing"/>  
 </p>
