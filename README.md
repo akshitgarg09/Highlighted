@@ -8,13 +8,14 @@ Highlighted - App that helps you remember what you read.
 
 <p align='center'>
     <img src="https://github.com/akshitgarg09/Highlighted/blob/main/assets/fonts/Screenshot_2021-07-31-13-07-38-961_com.example.highlighted.jpg" height = 30% width = 30%/>
-    <img src="https://drive.google.com/file/d/1Qrnx19g6pI8-woAow2eSErtzNCBEYFLT/view?usp=sharing"/>  
+    <img src="https://github.com/akshitgarg09/Highlighted/blob/main/assets/fonts/Screenshot_2021-07-31-13-08-01-972_com.example.highlighted.jpg" height = 30% width = 30%/>
+    <img src="https://github.com/akshitgarg09/Highlighted/blob/main/assets/fonts/Screenshot_2021-07-31-13-10-07-630_com.example.highlighted.jpg" height = 30% width = 30%/>
 </p>
 
 <p align='center'> 
-    <img src="https://drive.google.com/file/d/1R6E0vhzSZO48_8eSVPIyTbqZUuKTol-J/view?usp=sharing"/>
-    <img src="https://drive.google.com/file/d/1R4AHNF4jODTq9g0x1x85jxDTHlm4RsLu/view?usp=sharing"/>
-    <img src="https://drive.google.com/file/d/1QxGqNQ8JXwkVe24TunU6Rsdb07UPhXh9/view?usp=sharing"/> 
+    <img src="https://github.com/akshitgarg09/Highlighted/blob/main/assets/fonts/Screenshot_2021-07-31-13-14-54-967_com.example.highlighted.jpg" height = 30% width = 30%/>
+    <img src="https://github.com/akshitgarg09/Highlighted/blob/main/assets/fonts/Screenshot_2021-07-31-13-14-24-576_com.example.highlighted.jpg" height = 30% width = 30%/>
+    <img src="https://github.com/akshitgarg09/Highlighted/blob/main/assets/fonts/Screenshot_2021-07-31-13-10-23-822_com.example.highlighted.jpg" height = 30% width = 30%/>
 </p>
 
 
