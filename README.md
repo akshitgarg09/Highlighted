@@ -1,16 +1,28 @@
-# highlighted
+<br>
 
-A new Flutter project.
+<p align='center'>
+Highlighted - App that helps you remember what you read. 
+</p>
 
-## Getting Started
+<br>
 
-This project is a starting point for a Flutter application.
+<p align='center'>
+    <img src="https://drive.google.com/file/d/1QpvFKfrMJyX4qcLnATQ5pP0Yk7ftzz5X/view?usp=sharing"/>
+    <img src="https://drive.google.com/file/d/1QqOZGxHxLlgIc8oddSziFwHuUCsrSpjl/view?usp=sharing"/>
+    <img src="https://drive.google.com/file/d/1Qrnx19g6pI8-woAow2eSErtzNCBEYFLT/view?usp=sharing"/>  
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+<p align='center'> 
+    <img src="https://drive.google.com/file/d/1R6E0vhzSZO48_8eSVPIyTbqZUuKTol-J/view?usp=sharing"/>
+    <img src="https://drive.google.com/file/d/1R4AHNF4jODTq9g0x1x85jxDTHlm4RsLu/view?usp=sharing"/>
+    <img src="https://drive.google.com/file/d/1QxGqNQ8JXwkVe24TunU6Rsdb07UPhXh9/view?usp=sharing"/> 
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Features:
+
+* Capture new quotes simply by taking a photo
+* Revisit your highlights from all your books
+* Note, search and organize
+* Statistics Calender
+* Reviews streak and more
