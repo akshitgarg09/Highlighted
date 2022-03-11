@@ -7,7 +7,7 @@ Highlighted - App that helps you remember what you read.
 <br>
 
 <p align='center'>
-    <img src="https://github.com/akshitgarg09/Highlighted/blob/main/assets/fonts/Screenshot_2021-07-31-13-07-38-961_com.example.highlighted.jpg" height = 50% width = 50%/>
+    <img src="https://github.com/akshitgarg09/Highlighted/blob/main/assets/fonts/Screenshot_2021-07-31-13-07-38-961_com.example.highlighted.jpg" height = 30% width = 30%/>
     <img src="https://drive.google.com/file/d/1Qrnx19g6pI8-woAow2eSErtzNCBEYFLT/view?usp=sharing"/>  
 </p>
 
